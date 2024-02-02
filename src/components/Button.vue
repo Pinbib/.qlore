@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <div><a :href="url" class="link-light">{{ title }}</a></div>
+  <a :href="url" class="link-light">{{ title }}</a>
 </template>
 
 <style scoped>
